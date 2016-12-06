@@ -32,7 +32,7 @@ public class UsersServlet extends HttpServlet {
         // get current action
         String action = request.getParameter("action");
         if (action == null) {
-            action = "display_users";  // default action
+            action = "to_beginning";  // default action
         }
         
         // perform action and set URL to appropriate page
